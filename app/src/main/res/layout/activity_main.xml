@@ -10,8 +10,6 @@
     >
 
     <EditText
-        android:id="@string/edit_message"
-
-        />
+        android:id="@string/edit_message"/>
 
   </LinearLayout>

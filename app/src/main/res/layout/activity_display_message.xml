@@ -9,19 +9,10 @@
     tools:context=".MainActivity"
     >
 
-    <EditText
-        android:id="@+id/edit_message"
-        android:layout_height="wrap_content"
-        android:layout_width="0pt"
-        android:layout_weight="1"
-        android:hint="@string/edit_message"
-        android:inputType="text"/>
-
-    <Button
+    <TextView
+        android:id="@+id/message_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="button_send"
-        android:onClick="sendMessage"
-        />
+        ></TextView>
 
-  </LinearLayout>
+</LinearLayout>
